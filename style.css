@@ -1,0 +1,71 @@
+/* Navbar start */
+
+.navbar .social-media button{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0px 4px;
+
+}
+
+.navbar .social-media button:hover{
+    transform: translate(-3px);
+}
+
+/* Navbar  end */
+
+/* home  start */
+
+#home .carousel-item img{
+    height: 70vh;
+    object-fit: cover;
+
+}
+
+#home .carousel-caption{
+    top: 40%;
+}
+
+#home h5{
+    font-size: 45px;
+    font-weight: 800px;
+}
+
+/* home  end */
+
+/* card  start */
+#latest-news .card img{/* it makes the image fitting the card*/
+
+    height:280px;
+    width: 100%;
+    object-fit: cover;
+}
+#latest-news .card {
+    border: none !important;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.108);
+    transition:0.3s;
+    overflow: hidden;
+
+}
+#latest-news .card:hover{
+transform: translate(-8px);
+}
+
+#latest-news .card img{
+    transition: 0.3s;
+}
+
+#latest-news .card:hover img{
+    transform: scale(1.1);
+}
+
+/* card end*/
+
+/* image section start*/
+/* image section end*/
+
